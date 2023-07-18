@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script> -->
+	<script src="./peerConnection.js"></script>
+	<script src="./liveStream.js"></script>
+	<script src="./clientSocketForWindows.js"></script>
+	<title>Windows Client</title>
+	<style>
+		video {
+			width: 300px;
+			height: 250px;
+		}
+	</style>
+</head>
+<body>
+	<video id="thetaVideo" muted></video>
+</body>
+</html>

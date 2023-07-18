@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- <script type="module">
+		import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";
+	</script> -->
+	<script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+	<script src="./peerConnection.js"></script>
+	<script src="./userService.js"></script>
+	<script src="./clientSocketForQuest.js"></script>
+	<title>Quest Client</title>
+	<style>
+		video {
+			width: 300px;
+			height: 250px;
+		}
+	</style>
+</head>
+<body>
+	<video id="thetaVideo" autoplay muted></video>
+	<button id="startLiveBtn">StartLive</button>
+</body>
+</html>
